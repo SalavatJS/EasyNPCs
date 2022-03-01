@@ -1,0 +1,9 @@
+version: 1.0
+main: family.salavat.easynpcs.Main
+name: EasyNPCs
+api-version: 1.13
+depend:
+  - ProtocolLib
+commands:
+  npc:
+    usage: /npc <create | remove | removeall | setrotatable | setunnamed | settabname | setuntabbed | setname | setprefix | setsuffix | setcommand | setskin | setpose | setrotation | rotateme | setequipment | setglowing | setcolor | setcollidable> <name | id> <yaw | (player | console) | value | name | (true | false) | nickname> <pitch | (left | right | both)> <command-name> <command-args...>
